@@ -1,0 +1,70 @@
+/*
+================================================================================
+  CSS Documentation
+================================================================================
+
+  1.0.0     - General Options
+  1.0.0     - Colors
+
+================================================================================
+  1.0.0 - General Options
+================================================================================
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&subset=latin-ext');
+body{
+
+	font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	font-variant: normal;
+  color  : #000;
+  margin : 10px 0;
+  padding: 0;
+  background: url('../image/background.png');
+
+}
+
+.progression {
+  margin-top: 40px;
+}
+
+.progress {
+
+  border-radius: 3px;
+  display: flex;
+  max-width: 509px;
+  height: 12px;
+  margin-top: 13px;
+  margin-left: 43px;
+
+}
+
+.progress-text {
+  position: absolute;
+  margin-left: -50px;
+  left: 50%;
+  top: 39px;
+}
+
+.step-text {
+  position: absolute;
+  right: 40px;
+  margin-top: 5px;
+}
+
+/*
+================================================================================
+  1.0.0 - Colors
+================================================================================
+*/
+
+small {
+  color: white;
+}
+
+.progress-bar {
+
+  background: url('../image/progress.png');
+
+}
