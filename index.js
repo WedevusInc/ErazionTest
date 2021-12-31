@@ -14,7 +14,7 @@ function createWindow () {
       contextIsolation: false
     },
   });
-  mainWindow.loadFile('public/index.html');
+  mainWindow.loadFile('index.html');
   mainWindow.on('closed', function () {
     mainWindow = null;
   });
